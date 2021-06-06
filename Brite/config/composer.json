@@ -1,0 +1,23 @@
+{
+    "name": "donsimon/alt-brite-config",
+    "type": "library",
+    "description": "A simple PHP INI (or plain array) configuration class with dot-notation access",
+    "keywords": ["config","dot-notation"],
+    "homepage": "https://github.com/chathurasudarsha/alt-brite-config",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Don Simon P C S Ariyathilaka",
+            "email": "chathurasudarsha@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Brite\\Config": ""
+        }
+    },
+    "target-dir": "Brite/Config"
+}
